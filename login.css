@@ -1,0 +1,44 @@
+#body{
+    margin: 0px;
+}
+#login_bg{
+    position: absolute;
+    height: 100%;
+    left: 35%;    
+}
+#google-login{
+    position: absolute;
+    left: 38%;
+    top: 57%;
+    z-index: 2;
+}
+#fb-login{
+    position: absolute;
+    left: 38%;
+    top: 65%;   
+}
+#guest-login{
+    position: absolute;
+    left: 38%;
+    top: 74%; 
+}
+
+@media screen and (max-width:1200px){
+    #login_bg{
+        left: 0%;
+    }
+    #google-login{
+        width: 60%;
+        left: 7%;    
+    }
+    #fb-login{
+        width: 60%;
+        left: 7%;  
+    }
+    #guest-login{
+        width: 60%;
+        left: 7%;
+    }
+
+    
+}
